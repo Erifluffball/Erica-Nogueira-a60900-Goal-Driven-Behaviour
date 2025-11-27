@@ -5,11 +5,11 @@ using UnityEngine;
 public sealed class GWorld
 {
     private static readonly GWorld instance = new GWorld();
-    private static WorldStates world;
+    private static WorldState world;
 
     static GWorld()
     {
-        world = new WorldStates();
+        world = new WorldState();
     }
 
     private GWorld()
@@ -22,7 +22,7 @@ public sealed class GWorld
         get { return instance; }
     }
 
-    public WorldStates GetWorld()
+    public WorldState GetWorld()
     {
         return world;
     }

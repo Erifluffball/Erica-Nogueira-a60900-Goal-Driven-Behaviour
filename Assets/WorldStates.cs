@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
+
+public class WorldState
+{
+    public string key;
+    public int value;
+}
 public class WorldStates
 {
     public Dictionary<string, int> states;
