@@ -345,7 +345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GetPatient
   actionName: GetPatient
   cost: 1
-  target: {fileID: 0}
+  target: {fileID: 1000317771}
   targetTag: 
   duration: 0
   preConditions:
@@ -3976,7 +3976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 118c6a024d97f3244b30d4254255e099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  states: {fileID: 0}
+  states: {fileID: 1592830989}
 --- !u!114 &1592830989
 MonoBehaviour:
   m_ObjectHideFlags: 0
