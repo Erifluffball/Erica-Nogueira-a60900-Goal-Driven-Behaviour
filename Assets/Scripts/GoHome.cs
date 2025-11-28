@@ -1,17 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿public class GoHome : GAction {
+    public override bool PrePerform() {
 
-public class GoHome : GAction
-{
-    GameObject resource;
-    public override bool PrePerform()
-    {
         return true;
     }
 
-    public override bool PostPerform()
-    {
+    public override bool PostPerform() {
+
+        Destroy(this.gameObject);
         return true;
     }
 }
