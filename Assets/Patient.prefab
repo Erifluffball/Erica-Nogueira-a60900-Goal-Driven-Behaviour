@@ -1980,7 +1980,7 @@ MonoBehaviour:
   cost: 1
   target: {fileID: 0}
   targetTag: 
-  duration: 0
+  duration: 5
   preConditions:
   - key: atHospital
     value: 0
